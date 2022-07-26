@@ -1,0 +1,443 @@
+.p{
+	color:rgba(255, 255, 255, 1);
+}
+*{
+	box-sizing:border-box;
+	outline:0;
+}
+
+body{
+	color:#ffffff;
+	cursor:default;
+	font-family:Helvetica,sans-serif;
+	font-size:16px;margin:0;
+	-webkit-tap-highlight-color:transparent;
+	user-select: none; 
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select:none;
+	cursor: url(arrow2.png), url(arrow2.cur), default;
+}
+.pcenter
+{
+	font-size:8px;
+	color:LemonChiffon;
+	text-align:center;
+}
+.allcenter
+{
+	text-align:center;
+}
+
+beautik{
+	text-align:center;
+	font-family:'Gill Sans','Gill Sans MT',Calibri,'Trebuchet MS',sans-serif;
+	-webkit-backdrop-filter:blur(10px);
+	backdrop-filter:blur(10px);
+	background-color:rgba(255,255,255,0.1);
+	box-shadow:0 2px 2px rgba(0, 0, 0, 0.2);
+	padding:10px 15px;position:fixed;top:0;
+	-webkit-user-select:none;
+	user-select:none;width:100%
+}
+.footer {
+	font-family:'Gill Sans','Gill Sans MT',Calibri,'Trebuchet MS',sans-serif;
+	padding: 20px;
+	text-align: center;
+	backdrop-filter:blur(10px);
+	background-color:rgba(255,255,255,0.1);
+	box-shadow:0 2px 2px rgba(0, 0, 0, 0.2);
+	margin: 20px;
+	color:rgba(255, 255, 255, 1)
+}
+.footer a{
+	color:rgba(255, 255, 255, 1);
+	transition-duration: 0.3s;
+	text-decoration:none;
+	cursor: url(hand.png), url(hand.cur), pointer;
+}
+.footer a:hover{
+	color:rgba(199, 189, 255, 1);
+}
+.dropbtn{
+  background-color:"#ffdd12";
+  color:"#918d73";
+  padding:16px;
+  font-size:16px;
+  border:none;
+  cursor:pointer;
+}
+.dropbtn:hover{
+	padding-left:50px;
+}
+.dropdown{
+  position:relative;
+  display:inline-block;
+}
+.dropdown-content{
+  display:none;
+  position:absolute;
+  right:0;
+  background-color:"#ccaa01";
+  min-width:160px;rgba(0,0,0,0.2);
+  box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2)
+  z-index:1;
+}
+.dropdown-content a{
+  color:white;
+  padding:12px 16px;
+  text-decoration:none;
+  display:block;
+}
+.dropdown-content a:hover{
+	background-color:#ffdd12;
+	color:black;
+}
+.dropdown:hover .dropdown-content {
+  display:block;
+}
+.dropdown:hover .dropbtn {
+  background-color:#ccaa01;
+}
+
+un{
+	-moz-user-select:none;
+	-webkit-user-select:none;
+	-ms-user-select:none;
+	-khtml-user-select:none;
+	user-select:none;
+}
+biginfo{
+	font-family:'Gill Sans','Gill Sans MT',Calibri,'Trebuchet MS',sans-serif;
+	font-size:75px;
+}
+midinfo{
+	font-family:'Gill Sans','Gill Sans MT',Calibri,'Trebuchet MS',sans-serif;
+	font-size:40px;
+	color:rgba(254,243,232,0.8);
+	line-height:3;
+}
+smalnfo{
+	font-family:'Gill Sans','Gill Sans MT',Calibri,'Trebuchet MS',sans-serif;
+	font-size:20px;
+}
+
+.t-right-bar {
+    position: fixed;
+    right: 0;
+    bottom: 10%;
+    width: 48px;
+    height: 48px;
+    z-index: 1000;
+    cursor: pointer;
+}
+/* .ziwobutton button{	font-family:"Microsoft Yahei",sans-serif;	color:rgba(220, 205, 255, 0.9);
+	background-color:rgba(137, 107, 255, 1);}.ziwobutton button:hover{	color:rgba(220, 205, 255, 0.9)
+	background-color:rgba(146, 51, 255, 1)}
+ */
+.ziwobutton button{
+	font-family:"Microsoft Yahei",sans-serif;
+	color:rgba(249, 255, 194, 0.9);
+	background-color:rgba(255, 211, 34, 1.0);
+	border:2px solid rgba(255, 149, 0, 1.0);
+	border-radius:5px;
+	padding:2px 2px;
+	text-align:center;
+}
+.ziwobutton button:hover{
+	background-color:rgba(178, 147, 23, 1.0);
+}
+ .buttun2 a {
+            position: relative;
+            padding: 10px 30px;
+            margin: 0 45px;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 20px;
+            text-transform: uppercase;
+            transition: 0.5s;
+            overflow: hidden;
+            -webkit-box-reflect: below 1px linear-gradient(transparent, #0003);
+        }
+ 
+        .buttun2 a:hover {
+            background: #ffffff;
+            color: #111;
+            box-shadow: 0 0 50px #ffffff;
+            transition-delay: 0.5s;
+        }
+ 
+        .buttun2 a:nth-child(1) {
+            filter: hue-rotate(115deg);
+        }
+ 
+        .buttun2 a:nth-child(3) {
+            filter: hue-rotate(270deg);
+        }
+ 
+        .buttun2 a::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 10px;
+            height: 10px;
+            border-top: 2px solid #ffffff;
+            border-left: 2px solid #ffffff;
+            transition: 0.5s;
+            transition-delay: 0.5s;
+        }
+ 
+        .buttun2 a:hover::before {
+            width: 100%;
+            height: 100%;
+            transition-delay: 0s;
+        }
+ 
+        .buttun2 a::after {
+            content: '';
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 10px;
+            height: 10px;
+            border-bottom: 2px solid #ffffff;
+            border-right: 2px solid #ffffff;
+            transition: 0.5s;
+            transition-delay: 0.5s;
+        }
+ 
+        .buttun2 a:hover::after {
+            width: 100%;
+            height: 100%;
+            transition-delay: 0s;
+        }
+
+.t-right-bar > div {
+    float: left;
+    height: 36px;
+    margin-bottom: 1px;
+    border-radius: 20px 0 0 20px;
+    color: #fff;
+    padding-left: 100%;
+    clear: both;
+    white-space: nowrap;
+    font-size: 13px;
+    line-height: 36px;
+    font-style: normal;
+    background-color: #aaa;
+    background-repeat: no-repeat;
+    background-position: 12px center;
+    transition: transform .2s cubic-bezier(.215, .61, .355, 1), padding .2s cubic-bezier(.215, .61, .355, 1), margin .2s cubic-bezier(.215, .61, .355, 1), background-color .2s cubic-bezier(.215, .61, .355, 1)
+}
+
+ .t-right-bar > div.active, .t-right-bar > div:hover {
+    transform: translateX(-100%);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* 容器 <div> - 需要定位下拉内容 */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* 下拉内容 (默认隐藏) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* 下拉菜单的链接 */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;d
+    text-decoration: none;
+	
+    display: block;
+}
+
+body
+{
+	background-image:url('404beijing.png');
+	background-attachment:fixed;
+	background-color:#cccccc;
+}
+/* 鼠标移上去后修改下拉菜单链接颜色 */
+.dropdown-content a:hover {background-color: rgba(240, 248, 255, 0.3)}
+
+/* 在鼠标移上去后显示下拉菜单 */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* 当下拉内容显示后修改下拉按钮的背景颜色 */
+.dropdown:hover .dropbtn {
+    background-color: #ffffff;
+}
+#neon-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+  background: #031628; 
+}
+
+.btn {
+  border: 1px solid;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 10px 20px;
+  font-weight: 300;
+}
+
+
+
+.two {
+  color: #f038ff; 
+}
+
+.three {
+  color: #b9e769;
+}
+.btn:hover {
+  color: white;
+  border: 0;
+}
+.one {
+  color: rgba(255, 255, 255, 1);
+  text-align:center;
+  border-radius:1px solid rgba(255, 255, 255, 1);
+  transition-duration: 0.3s;
+  border-radius:3px;
+  cursor: url(arrow2.png), url(arrow2.cur), default;
+}
+.one:hover {
+  background-color: #ffffff;
+  color:black;
+  border-radius:2px solid rgba(255, 255, 255, 1);
+  -webkit-box-shadow: 10px 10px 99px 6px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 10px 10px 99px 6px rgba(255, 255, 255, 1);
+  box-shadow: 10px 10px 99px 6px rgba(255, 255, 255, 1);
+}
+
+.two:hover {
+  background-color: #f038ff;
+  -webkit-box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+  -moz-box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+  box-shadow: 10px 10px 99px 6px rgba(240, 56, 255, 1);
+}
+
+.three:hover {
+  background-color: #b9e769;
+  -webkit-box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
+  -moz-box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
+  box-shadow: 10px 10px 99px 6px rgba(185, 231, 105, 1);
+}
+
+.container {
+  position: relative;
+  width: 50%;
+  border-radius:5px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: black;
+  font-family:'Gill Sans','Gill Sans MT',Calibri,'Trebuchet MS',sans-serif;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.text a {
+	transition-duration: 0.45s;
+	text-decoration:none;
+	color:rgba(255,255,255,1);
+}
+.text a:hover {
+	color:rgba(199, 189, 255, 1);
+}
+a {
+	transition-duration: 0.45s;
+	text-decoration:none;
+	color:rgba(255,255,255,1);
+}
+a:hover {
+	color:rgba(199, 189, 255, 1);
+}
+.loading {
+	background-color: rgba(87, 87, 87, 1);
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    border: 3px solid;
+    border-color: #FFF #FFF transparent transparent;
+    -webkit-animation: rotation 1s linear infinite;
+    animation: rotation 1s linear infinite;
+}
+
+.loading:before {
+    width: 32px;
+    height: 32px;
+    border-color: #FFF #FFF transparent transparent;
+    -webkit-animation: rotation 1.5s linear infinite;
+    animation: rotation 1.5s linear infinite;
+}
+
+.loading:after, .loader-5:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border: 3px solid;
+    border-color: transparent transparent #AAAAFF #AAAAFF;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-animation: rotationBack 0.5s linear infinite;
+    animation: rotationBack 0.5s linear infinite; 
+    transform-origin: center center;
+}
+.back {
+	background-color: rgba(255, 255, 255, 0);
+}
