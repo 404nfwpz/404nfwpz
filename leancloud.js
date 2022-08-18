@@ -31,4 +31,5 @@ $.ajax(GetCounterData).done(function (response) {
     });
   }
   document.getElementById("SiteCounter").innerHTML="你是第"+response.Data+"个访问本站的人";
+  console.log(response.Data);
 });
